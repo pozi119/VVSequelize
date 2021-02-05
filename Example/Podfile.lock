@@ -1,0 +1,40 @@
+PODS:
+  - SQLCipher (4.4.0):
+    - SQLCipher/standard (= 4.4.0)
+  - SQLCipher/common (4.4.0)
+  - SQLCipher/standard (4.4.0):
+    - SQLCipher/common
+  - VVSequelize (0.4.7):
+    - VVSequelize/cipher (= 0.4.7)
+  - VVSequelize/cipher (0.4.7):
+    - SQLCipher
+    - VVSequelize/core
+    - VVSequelize/fts
+    - VVSequelize/util
+  - VVSequelize/core (0.4.7):
+    - VVSequelize/header
+  - VVSequelize/fts (0.4.7):
+    - VVSequelize/core
+    - VVSequelize/header
+  - VVSequelize/header (0.4.7)
+  - VVSequelize/util (0.4.7):
+    - VVSequelize/header
+
+DEPENDENCIES:
+  - VVSequelize (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SQLCipher
+
+EXTERNAL SOURCES:
+  VVSequelize:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SQLCipher: e434ed542b24f38ea7b36468a13f9765e1b5c072
+  VVSequelize: 68760aaacdfd94c370101e9820295898856426c2
+
+PODFILE CHECKSUM: c043495dabb40cfb5fd44ad1663377da0cd3e384
+
+COCOAPODS: 1.10.1
